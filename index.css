@@ -1,0 +1,69 @@
+.produto-imagens {
+    display: flex; /* Utiliza o Flexbox para alinhar os itens */
+    justify-content: space-around; /* Espaça igualmente as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha, se necessário */
+}
+
+.produto-imagens figure {
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza o texto da legenda */
+    width: 24%; /* Ajusta a largura de cada imagem, para que caibam na linha */
+}
+
+.produto-imagens img {
+    width: 100%; /* As imagens ocupam toda a largura do seu container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.produto-imagens figcaption {
+    margin-top: 5px; /* Espaço entre a imagem e a legenda */
+    font-weight: bold; /* Torna o texto da legenda em negrito */
+}
+
+/* Adiciona um estilo de link às legendas */
+.produto-imagens figcaption a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #e63946; /* Cor do texto do link */
+}
+
+.produto-imagens figcaption a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+}
+
+/* Estilização das imagens e do layout das notícias */
+#noticias {
+    text-align: center; /* Centraliza o título e o conteúdo dos artigos */
+}
+
+#noticias article {
+    display: inline-block; /* Permite que os artigos fiquem lado a lado */
+    width: 300px; /* Define uma largura para cada artigo */
+    margin: 20px; /* Adiciona espaçamento entre os artigos */
+    vertical-align: top; /* Alinha os artigos ao topo */
+    text-align: center; /* Centraliza o conteúdo dentro do artigo */
+}
+
+#noticias img {
+    width: 100%; /* Faz com que as imagens ocupem toda a largura do artigo */
+    max-width: 250px; /* Limita o tamanho máximo das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas para um efeito estético */
+}
+
+#noticias button {
+    background-color: #ffba08; /* Cor de fundo do botão */
+    color: #333; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#noticias button:hover {
+    background-color: #e63946;
+    color: #fff;
+}

@@ -1,0 +1,199 @@
+<!-- ESSE CÓDIGO FOI CRIADO TODO EM HTML, SENDO APRIMORADO COM UMA FERRMENTA CHAMADA WORKPRESS, ESSA FERRAMENTA INCLUIU TODA PARTE DE CSS E JAVASCRIPT DO SITE.
+ 
+PARTICIPANTES DO PROJETO:
+LUCIANE RODRIGUES
+LUIS HENRIQUE CRUZ
+MARIA DE JESUS
+PEDRO LUCAS TORMIN
+
+PÁGINA 01 - APRESENTAÇÃO DO SITE: -->
+
+<!--TÍTULO DO SITE-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotulando Rótulos</title>
+    <style>
+        /* Configuração geral */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff4e6;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #e63946;
+            text-align: center;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+            padding: 0 20px;
+            text-align: justify;
+        }
+
+        /* Seções */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Botões */
+        button {
+            background-color: #ffba08;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: block;
+            width: fit-content;
+            margin: 10px auto;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e63946;
+            color: #fff;
+        }
+
+        /* Imagens */
+        .produto-imagens img, article img {
+            width: 100px;
+            height: auto;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        /* Estilos de vídeo */
+        video {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        /* Títulos específicos */
+        #produtos h2, #produtos-detalhes h2, #noticias h2 {
+            background-color: #e63946;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Layout de artigos */
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ffba08;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- PÁGINA INICIAL -->
+    <section id="home">
+        <h1>Rotulando Rótulos</h1>
+        <h2>A importância dos rótulos</h2>
+        <img src="https://fly.metroimg.com/upload/q_85,w_1200/https://uploads.metroimg.com/wp-content/uploads/2023/05/08143204/rotulos-mercado-_Erik-Isakson-Gettyimages-1.jpg" alt="Olhar os rótulos é crucial!" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+        <p style="text-align: center;">Os rótulos de alimentos desempenham um papel essencial na segurança e orientação do consumidor. Eles fornecem informações importantes sobre ingredientes, valores nutricionais, prazo de validade e instruções de armazenamento, permitindo escolhas alimentares mais conscientes. Além disso, os rótulos ajudam a identificar possíveis alérgenos, facilitam a comparação entre produtos e garantem a transparência das marcas, contribuindo para a confiança do consumidor e para a promoção de uma alimentação mais saudável e informada.</p>
+        <a href="a-importancia-dos-rotulos.html">
+            <button>SAIBA MAIS</button>
+        </a>
+    </section>
+
+    <!-- SEÇÃO DE PRODUTOS -->
+    <section id="produtos">
+        <h2>Produtos para Pesquisa
+            <span class="lupa">🔍</span>
+        </h2>
+        <div class="produto-imagens">
+            <figure>
+                <img src="https://cdn.samaisvarejo.com.br/portal/image/1718981658822-super-abc-mercearia-paes.jpg" alt="Imagem de mercearia">
+                <figcaption><a href="mercearia.html">Mercearia</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://files.cercomp.ufg.br/weby/up/72/o/2.jpeg" alt="Imagem de bebidas">
+                <figcaption><a href="bebidas.html">Bebidas</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://tekmilk.com.br/images//2024/02/13/criacao-e-legalizacao-de-rotulagens-para-laticinios-e-alimentos-adequacao-de-rotulos-para-lacteos.jpg" alt="Imagem de laticínios">
+                <figcaption><a href="laticinios.html">Laticínios</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://cms-cdn.saipos.com/assets/2023/08/22/Tamanho-Banner-HTML_uid_64e51a1b58150.jpg" alt="Imagem de doces">
+                <figcaption><a href="doces.html">Doces</a></figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- VÍDEO SOBRE RÓTULOS -->
+    <section id="video" style="text-align: center;">
+        <h2>Como escolher melhor os produtos através dos rótulos?</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8bf7B2n1i6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- SEÇÃO DE NOTÍCIAS -->
+    <section id="noticias">
+        <h2>Notícias</h2>
+        <article>
+            <img src="https://s2-g1.glbimg.com/wk5pCXUvOR5XJdFez5kkk8Dcwm4=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/i/Y/ldIzniSiS9wbUbIS7HbQ/bdbr-limpo-20231010-0800-frame-142679.jpeg" alt="Rótulos de alimentos: acaba prazo para adequar embalagens com dados sobre alto teor de sal, gordura saturada e açúcar; entenda:">
+            <p>Rótulos de alimentos: acaba prazo para adequar embalagens com dados sobre alto teor de sal, gordura saturada e açúcar; entenda:</p>
+            <a href="https://g1.globo.com/saude/noticia/2024/04/22/rotulos-de-alimentos-acaba-prazo-para-adequar-embalagens-com-dados-sobre-alto-teor-de-sal-gordura-saturada-e-acucar-entenda.ghtml">
+                <button>LER MATÉRIA</button>
+            </a>
+        </article>
+        <article>
+            <img src="https://i2.wp.com/www.deviante.com.br/wp-content/uploads/2019/04/22_02_2018__10_43_0921799b9851a4e962b5b894df5c764d83d0b97_810x610.jpg?fit=810%2C540" alt="Projeto cria regras para rótulo de produtos de origem animal.">
+            <p>Projeto cria regras para rótulo de produtos de origem animal.</p>
+            <a href="https://www.camara.leg.br/noticias/1048676-projeto-cria-regras-para-rotulo-de-produtos-de-origem-animal/">
+                <button>LER MATÉRIA</button>
+            </a>
+        </article>
+        <article>
+            <img src="https://www.rotulosonline.com.br/wp-content/uploads/2021/02/val.jpg" alt="Projeto determina que rótulos de alimentos destaquem a data de validade.">
+            <p>Projeto determina que rótulos de alimentos destaquem a data de validade.</p>
+            <a href="https://www.camara.leg.br/noticias/1093836-projeto-determina-que-rotulos-de-alimentos-destaquem-a-data-de-validade/">
+                <button>LER MATÉRIA</button>
+            </a>
+        </article>
+    </section>
+
+    <!-- SEÇÃO PRODUTOS ESPECÍFICOS -->
+    <section id="produtos-detalhes">
+        <h2>Produtos</h2>
+        <article style="text-align: center;">
+            <h3>Nutella</h3>
+            <img src="https://static.paodeacucar.com/img/uploads/1/493/26394493.png" alt="Rótulo de Nutella" style="width: 200px; height: auto; display: block; margin: 0 auto;">
+            <p style="text-align: center;">A receita inconfundível de Nutella é feita com 7 ingredientes de qualidade, garantindo cremosidade e sabor.</p>
+        </article>
+        <article style="text-align: center;">
+            <h3>Refrigerante</h3>
+            <img src="https://confeiteiro.agilecdn.com.br/11464.png" alt="Rótulo do refrigerante" style="width: 200px; height: auto; display: block; margin: 0 auto;">
+            <p style="text-align: center;">Os componentes dos refrigerantes influenciam o foco e o desempenho cognitivo.</p>
+        </article>
+        <article style="text-align: center;">
+            <h3>Iogurte</h3>
+            <img src="https://prezunic.vtexassets.com/arquivos/ids/175857/65033afe41f0343ae3ef186e.jpg?v=638303073268970000" alt="Rótulo do iogurte" style="width: 200px; height: auto; display: block; margin: 0 auto;">
+            <p style="text-align: center;">O iogurte é preparado pela fermentação do leite, oferecendo uma textura e sabor característicos.</p>
+        </article>
+    </section>
+
+    <!-- SEÇÃO QUEM SOMOS -->
+    <section id="quem-somos">
+        <h1>Quem Somos?</h1>
+        <p style="text-align: center;">Alunos do terceiro semestre de Análise e Desenvolvimento de Sistema e Sistemas de Informação, decidimos criar esse site para conscientizar os consumidores de que é necessário olhar os rótulos dos produto, para entender melhor aquilo que consumimos.</p>
+    </section>
+
+</body>
+</html>
